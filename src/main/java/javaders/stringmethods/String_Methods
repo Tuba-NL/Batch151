@@ -1,0 +1,66 @@
+   Metot	                        Açıklama                                                            Veri Dönüş Tipi
+
+1.charAt()	                Belirtilen indexteki (konum) karakteri verir	                                    char
+2.codePointAt()	            Belirtilen indexteki karakterin Unicode'unu verir                                   int
+3.codePointBefore()	        Belirtilen indexteki önceki karakterin Unicode'unu verir	                        int
+4.codePointCount()	        Bu dizenin belirtilen metin aralığındaki Unicode'u döndürür                        	int
+5.compareTo()             	İki dizeyi sözlükbilimsel olarak karşılaştırır                                  	int
+6.compareToIgnoreCase()	    Büyük / küçük harf farklılıklarını göz ardı ederek iki dizgeyi
+                            sözlükbilimsel olarak karşılaştırır                                             	int
+
+7.concat()                	Başka bir String'in sonuna bir karakter ekler                                       String
+8.contains()	            Bir dizenin bir dizi karakter içerip içermediğini kontrol eder                      boolean
+
+9.contentEquals()          	Bir dizenin belirtilen CharSequence veya StringBuffer ile aynı karakter dizisini
+                            içerip içermediğini kontrol eder                                                	boolean
+
+10.copyValueOf()	        Karakter dizisinin karakterlerini temsil eden bir Dizi döndürür                    	String
+11.endsWith()              	Bir dizenin belirtilen karakter (ler) ile bitip bitmediğini kontrol eder            boolean
+12.equals()	                İki dizgiyi karşılaştırır. Dizeler eşitse doğru, değilse yanlış döndürür	        boolean
+13.equalsIgnoreCase()      	Büyük / küçük harfe ilişkin hususları göz ardı ederek iki dizeyi karşılaştırır    	boolean
+
+14.format()	                Belirtilen yerel ayarı, biçim dizesini ve bağımsız değişkenleri kullanarak
+                            biçimlendirilmiş bir dize döndürür                                              	String
+
+15.getBytes()              	Bu dizeyi adlandırılmış karakter kümesini kullanarak bir bayt dizisine kodlar,
+                            sonucu yeni bir bayt dizisinde saklar	                                            byte[]
+
+16.getChars()               Karakterleri bir dizeden bir karakter dizisine kopyalar	                            void
+17.hashCode()	            Bir dizenin karma kodunu verir                                                     	int
+18.indexOf()	            Bir dizede belirtilen karakterlerin ilk bulunan oluşumunun konumunu verir	        int
+
+19.intern()	                Aramayı belirtilen dizinde başlatarak, belirtilen karakterin ilk oluşumunun
+                            bu dizge içindeki dizini döndürür	                                                String
+
+20.isEmpty()	            Bir dizenin boş olup olmadığını kontrol eder                                    	boolean
+21.lastIndexOf()	        Bir dizede belirtilen karakterlerin son bulunan oluşumunun konumunu verir	        int
+22.length()	                Belirtilen bir dizenin uzunluğunu verir	                                            int
+23.matches()	            Normal bir ifadeye karşı bir eşleşme için bir dize arar ve eşleşmeleri döndürür 	boolean
+
+24.offsetByCodePoints()	    CodePointOffset kod noktaları tarafından verilen dizinden uzak olan bu
+                            Dize içindeki dizini döndürür	                                                    int
+
+25.regionMatches()	        İki dizi bölgesinin eşit olup olmadığını test eder	                                boolean
+
+26.replace()	            Belirli bir değer için bir dize arar ve belirtilen değerlerin
+                            değiştirildiği yeni bir dize döndürür	                                            String
+
+27replaceFirst()	        Verilen normal ifadeyle eşleşen bir alt dizenin ilk
+                            oluşumunu verilen değiştirmeyle değiştirir                                      	String
+
+28.replaceAll()	            Verilen normal ifadeyle eşleşen bu dizenin
+                            her bir alt dizesini verilen değiştirmeyle değiştirir	                            String
+
+29.split()	                Bir dizeyi bir alt dizeye böler	                                                    String[]
+30.startsWith()	            Bir dizenin belirtilen karakterlerle başlayıp başlamadığını kontrol eder	        boolean
+31.subSequence()	        Bu dizinin bir alt dizisi olan yeni bir karakter dizisi verir	                CharSequence
+
+32.substring()	            Karakterleri bir dizeden, belirtilen bir başlangıç konumundan başlayarak
+                            ve belirtilen karakter sayısıyla ayıklar	                                        String
+
+33.toCharArray()	        Bu dizeyi yeni bir karakter dizisine dönüştürür	                                    char[]
+34.toLowerCase()	        Bir dizeyi küçük harflere dönüştürür	                                            String
+35.toString()	            Bir String nesnesinin değerini verir	                                            String
+36.toUpperCase()	        Bir dizeyi büyük harflere dönüştürür	                                            String
+37.trim()	                Bir dizenin her iki ucundaki boşluğu kaldırır	                                    String
+38.valueOf()	            Bir String nesnesinin ilkel değerini verir	                                        String

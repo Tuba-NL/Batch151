@@ -1,0 +1,21 @@
+Main method disinda bir listteki elemanlari console'a yazdiran kodumuzu olusturalim.
+
+public static printElements(List<String> myList) olarak methodumuzu olusturduk. Listimizi import ettik.
+for each loop kullandik. sadece listimizi for each icinde String w'ya assign ettik. Sout icinde w+ " " yazdik.
+Bu methoda bir List vermeliyiz.  Main method icine myList isimli String List olusturduk. Listimize add methodu
+ile elemanlar ekledik. methodu parantezi icine myList ekleyerek cagirdik.
+Calistirinca ekrana elemanlar yazildi. Bu birinci yoldu.
+
+Ikinci Yolumuz:  Burada Lambda'dan faydalanacagiz. Ayni methodu alip, List'in yapisini stream yapmasini isteyecegiz.
+Boylelikle bircok methodu kullanabiliriz. Ornek: myList.stream().forEach();
+Buarada myList'i stream'e cevirdik ve for each methodunu kullanmasini istedik. for each methodu icine
+t-> System.out.print(t); yazdik. Kodu bu sekilde calistirinca birinci yoldaki ile ayni sonucu ekrana yazdi.
+
+myList'imizde Tom, Jim, Clara var. stream ile listin [Tom, Jim, Clara] yapisi yukaridan asagiya olacak sekilde
+degisti. Tom
+         Jim
+         Clara
+
+  stream'a donusunce for each ilk elemani alip t icine koyuyor. Biz java'ya print t deyince buaraya Tom yaziyor.
+  Sonra for each gelip ikinci elamani aliyor. javaya print deyince Jim yazdiriyor ve devaminda Clara'yi bu sekilde
+   yazdiriyor. Her yazdirmada bir bosluk birakiyor.
